@@ -1,0 +1,96 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color:hsl(148, 38%, 91%);
+    color:hsl(187, 24%, 22%);
+    font-family:"Karla", sans-serif;
+}
+.container{
+    width:42%;
+    background-color:hsl(0, 0%, 100%);
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    border-radius: 25px;
+    padding:10px;
+}
+
+h2{
+    margin-left:10px;
+    margin-top:10px;
+}
+
+span{
+    color:hsl(0, 66%, 54%);
+    font-weight: bold;
+}
+
+.name{
+    display:flex;
+    gap:28px;
+}
+
+.first-name{
+    flex:1;
+}
+
+.Submit{
+    background-color:hsl(169, 82%, 27%);
+    border-color:hsl(169, 82%, 27%);
+    width:100%;
+    border-radius:10px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+    color:white;
+}
+
+.name input, .query-1, .query-2{
+    height:40px;
+    width:288px;
+}
+
+#email{
+    height:40px;
+    width:99%;
+}
+
+.query{
+   display:flex;
+   gap:28px;
+}
+
+.query-1{
+    flex:1;
+    background-color:white;
+    border:2px solid hsl(186, 15%, 59%);
+    border-radius: 5px;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+
+.query-2{
+    background-color:white;
+    border:2px solid hsl(186, 15%, 59%);
+    border-radius: 5px;
+}
+
+input{
+    border-color:hsl(186, 15%, 59%);
+    border-radius:5px;
+    margin:4px;
+}
+
+textarea{
+    border-radius: 5px;
+    border-color:hsl(186, 15%, 59%);
+}
+
+label{
+    font-size: 16px;
+}
+
+form{
+    margin:10px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <title>Frontend Mentor | Contact form</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form onsubmit="return valid(event)">
+      <div class="name">
+        <div class="first-name">
+          <label for="fName">First Name <span>*</span> : </label><br>
+          <input type="text" id="fName"><br><br>
+        </div>
+
+        <div class="last-name">
+          <label for="lName">Last Name <span>*</span> : </label><br>
+          <input type="text" id="lName"><br><br>
+        </div>
+      </div>
+
+      <label for="email">Email Address <span>*</span> : </label><br>
+      <input type="email" id="email"><br><br>
+
+      <label for="query">Query Type <span>*</span> : </label><br>
+      <div class="query">
+        <div class="query-1">
+          <input type="radio" id="query-1" name="query" value="q-1">General Enquiry
+        </div>
+        <div class="query-2">
+          <input type="radio" id="query-2" name="query" value="q-2">Support Request<br><br>
+        </div>
+      </div><br>
+
+      <label for="message">Message <span>*</span> : </label><br>
+      <textarea id="message" rows="10" cols="81"></textarea><br><br>
+
+      <input type="checkbox" name="agree" value="agree" id="agree"> I consent to being contacted by the team <span>*</span><br><br>
+
+      <input type="submit" value="Submit" class="Submit">
+    </form>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Udani Lokuhetti</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
